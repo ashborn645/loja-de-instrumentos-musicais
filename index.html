@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FLOW Music: instrumentos musicais, acessórios e equipamentos." />
+    <title>FLOW Music | Instrumentos Musicais</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+    <link rel="stylesheet" href="css/inicio.css" />
+</head>
+
+<body>
+    <header>
+        <div class="faixa-anuncio-topo">
+            <p>Promoção de inauguração da FLOW Music</p>
+        </div>
+
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-texto">FLOW <span class="logo-detalhe">MUSIC</span></a>
+            </div>
+            <div class="busca-container">
+                <div class="input-wrapper">
+                    <input type="text" id="campo-busca" placeholder="O que deseja procurar?" class="campo-busca" aria-label="Buscar produtos"
+                        autocomplete="off" />
+                    <button type="button" class="botao-busca" aria-label="Buscar"><i class="bi bi-search"></i></button>
+                </div>
+
+                <div id="caixa-sugestoes" class="caixa-sugestoes"></div>
+            </div>
+
+            <div class="carrinho-wrapper">
+                <button type="button" class="carrinho-icone" aria-label="Produtos de interesse" aria-expanded="false">
+                    <i class="bi bi-bag-heart"></i>
+                    <span class="carrinho-contador">0</span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="index.html" class="active">Início</a></li>
+                <li class="dropdown">
+                    <button type="button" class="menu-dropdown-toggle" aria-expanded="false">Instrumentos <span aria-hidden="true">▾</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="html/piano.html">Pianos</a></li>
+                        <li><a href="html/teclado.html">Teclados</a></li>
+                        <li><a href="html/violao.html">Violão</a></li>
+                        <li><a href="html/guitarra.html">Guitarra</a></li>
+                        <li><a href="html/baixo.html">Baixo</a></li>
+                        <li><a href="html/violino.html">Violino</a></li>
+                        <li><a href="html/ukulele.html">Ukulele</a></li>
+                        <li><a href="html/saxofone.html">Saxofone</a></li>
+                        <li><a href="html/flauta.html">Flauta</a></li>
+                        <li><a href="html/trompete.html">Trompete</a></li>
+                        <li><a href="html/acordeon.html">Acordeon</a></li>
+                        <li><a href="html/bateria.html">Bateria</a></li>
+                        <li><a href="html/acessorios.html">Acessórios</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="hero-banner">
+            <div class="hero-conteudo">
+                <p class="hero-tag">Inauguração</p>
+                <p class="hero-titulo">A FLOW Music chegou</p>
+                <p class="hero-subtitulo">
+                    Instrumentos e acessórios para quem gosta de música</p>
+                <a href="#produtos-destaque" class="hero-botao">Conheça os produtos</a>
+            </div>
+        </div>
+
+        <div class="features-container">
+            <div class="feature-item">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#a81c1c" stroke-width="2">
+                    <rect x="1" y="3" width="15" height="13"></rect>
+                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                    <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                    <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+                <p class="feature-title">Frete para todo Brasil</p>
+                <p>Envio rápido e seguro</p>
+            </div>
+
+            <div class="feature-item">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#a81c1c" stroke-width="2">
+                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                    <line x1="1" y1="10" x2="23" y2="10"></line>
+                </svg>
+                <p class="feature-title">Pagamento no cartão</p>
+                <p>Aceitamos cartão</p>
+            </div>
+
+            <div class="feature-item">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#a81c1c" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <p class="feature-title">Garantia de fábrica</p>
+                <p>Produtos selecionados</p>
+            </div>
+
+            <div class="feature-item">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#a81c1c" stroke-width="2">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                    </path>
+                </svg>
+                <p class="feature-title">Suporte especializado</p>
+                <p>Ajuda na escolha dos instrumentos</p>
+            </div>
+        </div>
+
+        <div class="bloco-titulo-secao">
+            <p class="titulo-secao">Categorias</p>
+        </div>
+
+        <div class="carrossel-wrapper">
+            <button type="button" class="seta-carrossel seta-esquerda" id="btn-esquerda" aria-label="Categorias anteriores">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <div class="carrossel-container" id="carrossel">
+                <div class="grade-categorias-circulares">
+                    <a href="html/piano.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/piano.jpeg" alt="Piano" />
+                        </div>
+                        <p class="nome-categoria">Piano</p>
+                    </a>
+
+                    <a href="html/violao.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/violao.jpeg" alt="Violão" />
+                        </div>
+                        <p class="nome-categoria">Violão</p>
+                    </a>
+
+                    <a href="html/saxofone.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/saxofone.jpeg" alt="Saxofone" />
+                        </div>
+                        <p class="nome-categoria">Saxofone</p>
+                    </a>
+
+                    <a href="html/violino.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/violino.jpeg" alt="Violino" />
+                        </div>
+                        <p class="nome-categoria">Violino</p>
+                    </a>
+
+                    <a href="html/guitarra.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/guitarra.jpeg" alt="Guitarra" />
+                        </div>
+                        <p class="nome-categoria">Guitarra</p>
+                    </a>
+
+                    <a href="html/teclado.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/teclado.jpeg" alt="Teclado" />
+                        </div>
+                        <p class="nome-categoria">Teclado</p>
+                    </a>
+
+                    <a href="html/baixo.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/baixo.jpeg" alt="Baixo" />
+                        </div>
+                        <p class="nome-categoria">Baixo</p>
+                    </a>
+
+                    <a href="html/ukulele.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/ukulele.jpeg" alt="Ukulele" />
+                        </div>
+                        <p class="nome-categoria">Ukulele</p>
+                    </a>
+
+                    <a href="html/flauta.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/flauta.jpeg" alt="Flauta" />
+                        </div>
+                        <p class="nome-categoria">Flauta</p>
+                    </a>
+
+                    <a href="html/trompete.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/trompete.jpeg" alt="Trompete" />
+                        </div>
+                        <p class="nome-categoria">Trompete</p>
+                    </a>
+
+                    <a href="html/acordeon.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/acordeon.jpeg" alt="Acordeon" />
+                        </div>
+                        <p class="nome-categoria">Acordeon</p>
+                    </a>
+
+                    <a href="html/bateria.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/bateria.jpeg" alt="Bateria" />
+                        </div>
+                        <p class="nome-categoria">Bateria</p>
+                    </a>
+
+                    <a href="html/acessorios.html" class="item-categoria-circular">
+                        <div class="circulo-img">
+                            <img src="img/acessorios.jpeg" alt="Acessórios" />
+                        </div>
+                        <p class="nome-categoria">Acessórios</p>
+                    </a>
+                </div>
+            </div>
+
+            <button type="button" class="seta-carrossel seta-direita" id="btn-direita" aria-label="Próximas categorias">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="bloco-melhores-semana" id="produtos-destaque">
+            <p class="titulo-melhores">Produtos em Destaque</p>
+            <p class="subtitulo-melhores">Alguns produtos da loja</p>
+            <p class="formas-pagamento">
+                Pagamento por Pix, cartão de crédito ou débito
+            </p>
+
+            <div class="grade-produtos" id="grade-produtos-destaque"></div>
+        </div>
+    </main>
+
+    <footer id="contato">
+        <div class="footer-container">
+            <div class="footer-info">
+                <p class="titulo-rodape">FLOW MUSIC</p>
+                <p class="texto-rodape">
+                    <i class="bi bi-telephone"></i> Loja: (11) 98845-2716
+                </p>
+            </div>
+            <div class="footer-horarios">
+                <p class="titulo-rodape">Horário de Funcionamento</p>
+                <p class="texto-rodape">
+                    Segunda a Sexta: 09h às 18h<br />Sábados: 09h às 13h
+                </p>
+            </div>
+
+            <div class="footer-redes">
+                <p class="titulo-rodape">Redes Sociais</p>
+                <div class="links-redes-sociais">
+                    <span class="rede-social-indisponivel">Instagram em breve</span>
+                    <span class="rede-social-indisponivel">Facebook em breve</span>
+                    <span class="rede-social-indisponivel">WhatsApp em breve</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-direitos">
+            <p>&copy; 2026 Flow Music. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/inicio.js"></script>
+</body>
+
+</html>
